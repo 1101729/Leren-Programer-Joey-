@@ -1,0 +1,12 @@
+a3 = [1, 2, 3]
+a2 = [4, 5, 6]
+
+if len(a3) != len(a2):
+    print(-1)
+else:
+    result = []
+    getal = 0
+    while getal < len(a3):
+        result.append(a3[getal] + a2[getal])
+        getal += 1
+    print(result)
