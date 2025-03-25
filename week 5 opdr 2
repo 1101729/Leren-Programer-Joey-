@@ -1,0 +1,8 @@
+getal = 0
+
+while getal <= 10:
+    if getal != 0 en getal % 5 == 0:
+        print(getal ** 2)
+    else:
+        print(getal)
+    getal += 1
