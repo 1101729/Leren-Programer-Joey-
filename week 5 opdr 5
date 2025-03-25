@@ -1,0 +1,14 @@
+b1 = [1, 2]
+b2 = [4, 5, 6]
+
+samen = b1 + b2
+total_sum = 0
+getal = 0
+
+while getal < len(samen):
+    total_sum += samen[getal]
+    getal += 1
+
+average = total_sum / len(samen)
+
+print(average)
